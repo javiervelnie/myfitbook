@@ -1,0 +1,61 @@
+html {
+    max-width: 450px;
+  }
+  
+  body {
+    background-color: #313131;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+  }
+
+nav{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.material-icons{
+    font-size: 40px;
+}
+
+#tituloNav{
+    font-size: 30px;
+    padding-left: 40px;
+    position: absolute;
+}
+
+#menuOculto{
+  background-color: #777777;
+  color: white;
+  width: 75%;
+}
+#menuOculto ul{
+  padding:0px;
+}
+#menuOculto li{
+  padding: 20px;
+  padding-left: 15px;
+  list-style: none;
+  font-size: 30px;
+}
+#menuOculto span{
+  padding-right: 10px;
+}
+.menuIco{
+  position: absolute;
+}
+
+#contenedorRRSS{
+  bottom:0px;
+  display: block;
+  margin-top: 100px;
+}
