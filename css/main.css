@@ -12,11 +12,12 @@ html {
     margin: 0;
   }
 
+  /* NAV */
 nav{
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: aquamarine;
     border-radius: 50px;
-    border: 1px solid white;
+    border: 1px solid rgb(124, 124, 124);
     width: 300px;
     padding: 20px;
     margin-left: auto;
@@ -31,15 +32,46 @@ nav{
     font-size: 30px;
     padding-left: 40px;
     position: absolute;
+    text-decoration: none;
+    color: aquamarine;
 }
 
+/* MENU OCULTO */
 #menuOculto{
   background-color: #777777;
   color: white;
-  width: 75%;
+  width: 0%;
+  height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#cerrarMenu{
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 106, 106);
+  text-align: right;
+  padding-top: 8px;
+  padding-right: 8px;
+}
+#tituloMenu{
+  color: aquamarine;
+  font-size: 25px;
+  margin-right: 30px;
 }
 #menuOculto ul{
   padding:0px;
+}
+#menuOculto ul>a{
+  color: white;
+  text-decoration: none;
+}
+#menuOculto ul>a:focus, #menuOculto ul>a:hover{
+  color: rgb(255, 237, 155);
 }
 #menuOculto li{
   padding: 20px;
@@ -50,12 +82,24 @@ nav{
 #menuOculto span{
   padding-right: 10px;
 }
+.menuTexto{
+  padding-left: 60px;
+}
 .menuIco{
   position: absolute;
 }
-
 #contenedorRRSS{
   bottom:0px;
-  display: block;
+  position: absolute;
   margin-top: 100px;
+  padding-bottom: 10px;
+}
+#contenedorRRSS a{
+  padding: 10px;
+}
+
+
+#MiGrafica{
+  width: 90%;
+  height: 200px;
 }

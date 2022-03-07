@@ -10,19 +10,26 @@
 </head>
 <body>
     <nav>
-        <i class="material-icons">menu</i>
-        <span id="tituloNav">My Fit Book</span>
+        <i id="btn-abrir-menu" class="material-icons">menu</i>
+        <a href="main.html" id="tituloNav">My Fit Book</a>
     </nav>
     <div id="menuOculto">
+        <div id="cerrarMenu">
+            <span id="tituloMenu">My Fit Book</span>
+            <span id="btn-cerrar">X</span>
+        </div>
         <ul>
-            <li><span class="menuTexto">Medidas</span><i class="material-icons menuIco">show_chart</i></li>
-            <li><span class="menuTexto">Pesajes</span><i class="material-icons menuIco">accessibility</i></li>
-            <li><span class="menuTexto">Entrenamientos</span><i class="material-icons menuIco">fitness_center</i></li>
+            <a href="#"><li><i class="material-icons menuIco">show_chart</i><span class="menuTexto">Medidas</span></li></a>
+            <a href="#"><li><i class="material-icons menuIco">accessibility</i><span class="menuTexto">Pesajes</span></li></a>
+            <a href="#"><li><i class="material-icons menuIco">fitness_center</i><span class="menuTexto">Entrenamientos</span></li></a>
         </ul>
         <div id="contenedorRRSS">
-            <a href="#"><img src="imagenes/github-logo_icon-icons.com_73546.png" alt="Logo GitHub"></a>
-            <a href="#"><img src="imagenes/linkedin_icon-icons.com_65929.png" alt="Logo LinkedIn"></a>
+            <a href="https://github.com/javiervelnie" target="_blank"><img src="imagenes/github-logo_icon-icons.com_73546.png" alt="Logo GitHub"></a>
+            <a href="https://linkedin.com/in/javier-vnieto" target="_blank"><img src="imagenes/linkedin_icon-icons.com_65929.png" alt="Logo LinkedIn"></a>
         </div>
     </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="path/to/chartjs/dist/chart.js"></script>
 </body>
 </html>
