@@ -24,7 +24,7 @@ nav{
     margin-right: auto;
     margin-top: 10px;
 }
-.material-icons{
+.material-icons > .icono_menu{
     font-size: 40px;
 }
 
@@ -72,6 +72,7 @@ nav{
 }
 #menuOculto ul>a:focus, #menuOculto ul>a:hover{
   color: rgb(255, 237, 155);
+  cursor: pointer;
 }
 #menuOculto li{
   padding: 20px;
@@ -96,10 +97,73 @@ nav{
 }
 #contenedorRRSS a{
   padding: 10px;
+  color: white;
 }
 
+#btn-logout{
+  position: absolute;
+  right: -170px;
+  bottom: 5px;
+  font-size: 40px;
+}
 
-#MiGrafica{
-  width: 90%;
-  height: 200px;
+/* CONTENEDOR PESO ACTUAL */
+#contenedorPeso{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* CONTENEDOR ULTIMO ENTRENO*/
+#contenedorUltimoEntreno{
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* BOTON ADD ENTRENO Y MENU DESPLEGABLE */
+#contenedorBotonAddEntreno{
+  color: aquamarine;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 280px;
+  top: 600px;
+}
+.material-icons > #btn-add{
+  font-size: 60px;
+}
+/*******/
+#menuOcultoEntrenos{
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 440px;
+}
+#menuOcultoEntrenos ul{
+  list-style: none;
+}
+#menuOcultoEntrenos ul > a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#menuOcultoEntrenos li{
+  padding: 10px;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 50px;
+  width: 130px;
+}
+#menuOcultoEntrenos ul>a:focus, #menuOcultoEntrenos ul>a:hover{
+  color: rgb(255, 237, 155);
+  cursor: pointer;
+}
+#menuOcultoEntrenos li:focus, #menuOcultoEntrenos li:hover {
+  border: 1px solid rgb(255, 237, 155);
+}
+.ocultarMenuEntrenos{
+  display: none
 }

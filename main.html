@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <i id="btn-abrir-menu" class="material-icons">menu</i>
+        <i id="btn-abrir-menu" class="material-icons"><span class="icono_menu">menu</span></i>
         <a href="main.html" id="tituloNav">My Fit Book</a>
     </nav>
     <div id="menuOculto">
@@ -26,10 +26,31 @@
         <div id="contenedorRRSS">
             <a href="https://github.com/javiervelnie" target="_blank"><img src="imagenes/github-logo_icon-icons.com_73546.png" alt="Logo GitHub"></a>
             <a href="https://linkedin.com/in/javier-vnieto" target="_blank"><img src="imagenes/linkedin_icon-icons.com_65929.png" alt="Logo LinkedIn"></a>
+            <a href="#" id="btn-logout"><i class="material-icons icono_menu">logout</i></a>
         </div>
     </div>
 
+    <div id="contenedorPeso">
+        <h2>Peso actual</h2>
+        <h1>80 kg</h1>
+    </div>
+
+    <div id="contenedorUltimoEntreno">
+        <h2>Ultimo entreno</h2>
+        <h1>03 Marzo 2022</h1>
+    </div>
+
+    <div id="contenedorBotonAddEntreno">
+        <i class="material-icons"><span id="btn-add">add_circle</span></i>
+    </div>
+
+    <div id="menuOcultoEntrenos" class="ocultarMenuEntrenos">
+        <ul>
+            <a href="#"><li>WOD</li></a>
+            <a href="#"><li>Hipertrofia</li></a>
+            <a href="#"><li>Otros</li></a>
+        </ul>
+    </div>
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="path/to/chartjs/dist/chart.js"></script>
 </body>
 </html>
